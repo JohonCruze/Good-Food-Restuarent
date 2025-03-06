@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+.btn {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    background-color: #52C303;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid #52C303;
+    cursor: pointer;
+}
+
+.banner-section {
+    background: linear-gradient(0deg, rgb(9, 9, 9) -50%, rgba(16, 16, 16, 0) 120%), url(/assets/hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 641px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-section-content {
+    width: 715px;
+}
+
+.banner-section-content .sub-title {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+    opacity: 0.8;
+}
+
+.banner-section-content .title {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+
+.banner-section-content .paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
