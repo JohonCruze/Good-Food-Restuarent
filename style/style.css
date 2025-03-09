@@ -23,7 +23,7 @@ body {
 }
 
 .banner-section {
-    background: linear-gradient(0deg, rgb(9, 9, 9) -50%, rgba(16, 16, 16, 0) 120%), url("/assets/hero-bg.png");
+    background: linear-gradient(0deg, rgb(9, 9, 9) -50%, rgba(16, 16, 16, 0) 120%), url('./assets/hero-bg.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -188,7 +188,7 @@ body {
 }
 
 .social-section {
-    background: url(/assets/social-bg.png);
+    background: url('./assets/social-bg.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
